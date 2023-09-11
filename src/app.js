@@ -3,7 +3,7 @@ import "express-async-errors";
 import cors from "cors";
 import dotenv from "dotenv";
 import router from "./routes/indexRoutes.js";
-import errorHandler from "./middlewares/errorHandle.js";
+import errorHandler from "./middlewares/errorHandle.js"
 
 const app = express();
 app.use(express.json());
